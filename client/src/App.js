@@ -4,7 +4,9 @@ import './App.css';
 
 function App() {
   return (
-    
+    <div>
+      <p>Babel on!</p>
+    </div>
   );
 }
 
