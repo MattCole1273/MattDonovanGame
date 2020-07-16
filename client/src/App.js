@@ -2,14 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 
 import GameCard from './components/Card/Card'
+import GameDie from './components/Die/Die'
 
 function App() {
   return (
     <div>
-      <GameCard type = "Block"></GameCard>
-      <GameCard type ="Counterblock" ></GameCard>
-      <GameCard type ="Reroll"></GameCard>
-      <GameCard type ="Opponetreroll"></GameCard>
+      <GameDie></GameDie>
+      <GameCard type = "Block"/>
+      <GameCard type ="Counterblock"/>
+      <GameCard type ="Reroll"/>
+      <GameCard type ="Opponetreroll"/>
     </div>
   );
 }
