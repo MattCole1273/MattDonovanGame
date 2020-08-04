@@ -1,9 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import React from 'react';
 
-
-function GameCard(props) {
-    function renderCardText(type){
+function renderCardText(type){
         switch(type){
             case 'Block':
                 return 'Blocks opponets reroll';
@@ -15,7 +13,8 @@ function GameCard(props) {
                 return 'Reroll opponets die'
         }
     }
-
+function GameCard(props) {
+    
     return (
     <Card style={{ width:'15rem', height:'20rem' }}>
   <Card.Body>
